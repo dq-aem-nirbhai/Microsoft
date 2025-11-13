@@ -1,0 +1,30 @@
+<jcr:root
+    jcr:primaryType="nt:unstructured"
+    jcr:title="hero_banner Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns"/>
+        <items
+            jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items
+                    jcr:primaryType="nt:unstructured">
+                    <label1
+                        fieldLabel="Label1"
+                        jcr:primaryType="nt:unstructured"
+                        name="./label1"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>
